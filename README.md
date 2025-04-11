@@ -7,15 +7,22 @@ This project is a feedforward neural network implemented in C++ with support for
 ├── include/
 
 └──ActivationFunctions.hpp
+
 └──Layer.hpp
+
 └──NeuralNetwork.hpp
 
 ├── src/
+
 └──Layer.cpp
+
 └──NeuralNetwork.cpp
 
+
 ├── main.cpp
+
 ├── makefile
+
 └── README.md
 
 ## Build Instructions
