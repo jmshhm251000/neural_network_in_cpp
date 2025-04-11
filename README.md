@@ -5,12 +5,15 @@ This project is a feedforward neural network implemented in C++ with support for
 ## Folder Structure
 
 ├── include/
-  └──ActivationFunctions.hpp
-  └──Layer.hpp
-  └──NeuralNetwork.hpp
+
+└──ActivationFunctions.hpp
+└──Layer.hpp
+└──NeuralNetwork.hpp
+
 ├── src/
-  └──Layer.cpp
-  └──NeuralNetwork.cpp
+└──Layer.cpp
+└──NeuralNetwork.cpp
+
 ├── main.cpp
 ├── makefile
 └── README.md
