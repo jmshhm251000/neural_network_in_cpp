@@ -5,14 +5,23 @@ This is a simple implementation of a feedforward neural network in C++. It demon
 ## Project Structure
 
 neuralnetwork/
+
 ├── include/
+
 │ ├── ActivationFunctions.hpp # Defines activation functions like sigmoid, ReLU, etc.
+
 │ ├── Layer.hpp # Layer class: weights, biases, forward/backward pass
+
 │ └── NeuralNetwork.hpp # NeuralNetwork class: overall architecture and training loop
+
 └── src/
+
 ├── Layer.cpp # Implementation of the Layer class
+
 ├── NeuralNetwork.cpp # Implementation of the NeuralNetwork class
+
 └── main.cpp # Entry point for testing or training the model
+
 
 
 ## Build Instructions
