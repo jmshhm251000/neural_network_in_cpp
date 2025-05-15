@@ -1,46 +1,21 @@
-# neural_network_in_cpp
+# Neural Network (C++)
 
-This project is a feedforward neural network implemented in C++ with support for training using backpropagation and central difference.
+This is a simple implementation of a feedforward neural network in C++. It demonstrates how to structure a neural network using object-oriented programming and includes support for basic activation functions and layers.
 
-## Folder Structure
+## Project Structure
 
+neuralnetwork/
 ├── include/
+│ ├── ActivationFunctions.hpp # Defines activation functions like sigmoid, ReLU, etc.
+│ ├── Layer.hpp # Layer class: weights, biases, forward/backward pass
+│ └── NeuralNetwork.hpp # NeuralNetwork class: overall architecture and training loop
+└── src/
+├── Layer.cpp # Implementation of the Layer class
+├── NeuralNetwork.cpp # Implementation of the NeuralNetwork class
+└── main.cpp # Entry point for testing or training the model
 
-└──ActivationFunctions.hpp
-
-└──Layer.hpp
-
-└──NeuralNetwork.hpp
-
-├── src/
-
-
-└──Layer.cpp
-
-└──NeuralNetwork.cpp
-
-
-├── main.cpp
-
-├── makefile
-
-└── README.md
 
 ## Build Instructions
 
-### Requirements
-- g++ with C++17 support
-- `make` or `mingw32-make` (on Windows)
-
-### To Build
-
-```bash
-make
-
-### To Clean
-
-make clean
-
-### Run
-
-./myprogram
+1. **Install CMake** (v3.10 or later)
+2. **Build the project**
